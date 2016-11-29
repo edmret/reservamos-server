@@ -1,0 +1,23 @@
+{
+  "local": {
+    "provider": "local",
+    "module": "passport-local",
+    "usernameField": "username",
+    "passwordField": "password",
+    "authPath": "/auth/local",
+    "successRedirect": "/auth/account"
+  },
+  "stack-exchange-login": {
+    "provider": "stack-exchange",
+    "module": "passport-stack-exchange",
+    "strategy": "OAuth2Strategy",
+    "clientID": "8489",
+    "stackAppsKey": "DxekpRpPoNlyZezCuVrZlw((",
+    "clientSecret": "jQWasb3J6cl5UBSvPOAQzg((",
+    "callbackURL": "http://localhost:3000/auth/stack-exchange/callback",
+    "authPath": "/auth/stack-exchange",
+    "callbackPath": "/auth/stack-exchange/callback",
+    "successRedirect": "/auth/account",
+    "scope": ["private_info"]
+  }
+}
