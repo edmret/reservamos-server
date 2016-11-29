@@ -17,6 +17,7 @@
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^2.4.0",
     "loopback-component-passport": "^2.3.0",
+    "loopback-connector-mongodb": "^1.17.0",
     "loopback-datasource-juggler": "^2.39.0",
     "passport-local": "^1.0.0",
     "passport-stack-exchange": "https://github.com/mooyoul/passport-stack-exchange/tarball/master",
